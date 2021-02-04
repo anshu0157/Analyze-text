@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 
@@ -14,7 +15,11 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: grey;
+            background-image: url('./static/bg1.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         footer {
             position: fixed;
@@ -22,7 +27,6 @@
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color:#212529;
             color: black;
             text-align: center;
         }
@@ -30,6 +34,7 @@
 </head>
 
 <body>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">TextAnalyzer</a>
