@@ -1,6 +1,5 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-import string
 
 def capitalize(s):
     a=''
